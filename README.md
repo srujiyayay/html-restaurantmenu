@@ -1,1 +1,126 @@
-# html-restaurantmenu
+# html-restaurantmenu<!DOCTYPE html>
+<head>
+<title> kirei: authentic japanese restaurant </title>
+</head>
+
+<body>
+<!--Header section--!>
+<header>
+<img 
+id="restaurant-img"
+src="https://images.unsplash.com/photo-1552566626-52f8b828add9" 
+alt="restaurant banner"
+width="100%"
+>
+
+<h1> kirei: authentic japanese restaurant </h1>
+
+<nav>
+<h2><a href="#menu">Menu</a></h2>
+<h2><a href="#order-form">Order</a></h2>
+</nav>
+</header>
+
+<main>
+
+<!--Menu section--!>
+<section id="menu">
+<h2>MENU</h2>
+
+<article>
+<img 
+id="miso-soup"
+src="https://www.justonecookbook.com/wp-content/uploads/2022/06/Miso-Soup-8297-I.jpg"
+alt="miso soup"
+width="50%"
+>
+
+<h3> miso soup </h3>
+<p> an authentic japanese soup dish with tofu <i>320/-</i></p>
+</article>
+
+<article>
+<img
+id="tempura sushi"
+src="https://tse3.mm.bing.net/th/id/OIP.2sKx2EFigg6QW2_mMKH1EQHaFl?pid=Api&P=0&h=180"
+alt="tempura sushi"
+width="50%"
+>
+
+<h3> tempura sushi </h3>
+<p> a japanese dish made from tempura fish <i>540/-</i></p>
+</article>
+
+<article>
+<img
+id="matcha latte"
+src="https://www.foodandwine.com/thmb/2tI8aL1Z8hKhfV48_c8b6uWG-TQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Iced-Matcha-Latte-FT-RECIPE0622-2000-9c2e116d3bc54bdaacda10e62e8e0205.jpg"
+alt="matcha latte"
+width="50%"
+>
+
+<h3> matcha latte </h3>
+<p> a coffee latte made from japanese green tea <i>230/-</i></p>
+</article>
+
+<!--Order section!-->
+<section id="order">
+<h2> Place Your Order </h2>
+
+<form>
+
+<!--Inputs--!>
+<label for="miso soup">
+miso soup quantity:
+</label>
+<input type="number" id="miso soup" name="miso soup" min="0">
+
+<br><br>
+
+<label for="tempura sushi">
+tempura sushi quantity:
+</label>
+<input type="number" id="tempura sushi" name="tempura sushi" min="0">
+
+<br><br>
+
+<label for="matcha latte">
+matcha latte quantity:
+</label>
+<input type="number" id="matcha latte" name="matcha latte" min=")">
+
+<br><br>
+
+<!--Add-ons--!>
+<p>add-ons:</p>
+
+<label>
+<input type="checkbox" name="addon" value="icecream">
+matcha ice cream(+180/-)
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" name="addon" value="extra ramen">
+extra ramen noodles(+120/-)
+</label>
+
+<br>
+
+<label for="requests">
+          Special Requests:
+        </label>
+        <br>
+        <textarea id="requests" name="requests" rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Go To Checkout">
+
+</form>
+</section>
+</main>
+</body>
+</html>
