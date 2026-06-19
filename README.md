@@ -1,4 +1,6 @@
 # html-restaurantmenu
+<html>
+<main>
 <head>
 <title> kirei: authentic japanese restaurant </title>
 </head>
