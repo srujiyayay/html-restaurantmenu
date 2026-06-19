@@ -1,4 +1,4 @@
-# html-restaurantmenu<!DOCTYPE html>
+# html-restaurantmenu
 <head>
 <title> kirei: authentic japanese restaurant </title>
 </head>
